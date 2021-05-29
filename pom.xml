@@ -11,6 +11,7 @@
 	<groupId>com.wasinapl</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -30,13 +31,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
-		<dependency>
-			<groupId>org.jenkins-ci.main</groupId>
-			<artifactId>jenkins-war</artifactId>
-			<version>2.86</version>
 			<scope>test</scope>
 		</dependency>
 
